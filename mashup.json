@@ -1,0 +1,139 @@
+{
+  "id": "sigf/devilutionx-d2",
+  "version": "0.2.0",
+  "name": "Diablo with Diablo 2 Movement",
+  "tagline": "Diablo 1 through DevilutionX with Diablo 2's movement: walk straight to where you click, slide past corners and run in town.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "diablo",
+      "role": "host",
+      "label": "Diablo",
+      "engine": "DevilutionX 1.5.3 fork (C++, SDL2), Windows x64; reads your DIABDAT.MPQ",
+      "apps": {
+        "gog": "1412601690"
+      },
+      "runtime": "any Diablo with DIABDAT.MPQ (GOG, or the original CD); Hellfire MPQs optional"
+    },
+    {
+      "game": "diablo2",
+      "role": "guest",
+      "label": "Diablo II",
+      "note": "movement re-made from Diablo II 1.12's behaviour; Diablo II is not needed"
+    }
+  ],
+  "requires": [],
+  "install": [
+    {
+      "game": "diablo",
+      "strategy": "game-dir-snapshot",
+      "files": [
+        {
+          "src": "DevilutionX-D2-Movement-v0.2.0-windows-x64.zip",
+          "dst": "{game}",
+          "root": "devilutionx",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "devilutionx/LICENSE/LICENSE.OFL.txt",
+              "sha256": "8a5b5743a6b45c2f6806edf7037f1593f9c31c30d87fb3bbe934dacb31f6d446"
+            },
+            {
+              "path": "devilutionx/LICENSE/README-SDL.txt",
+              "sha256": "5a0741aa6ae3361804bafa19f14cb1d6d63268470e5e231ca9f4e167e867a47f"
+            },
+            {
+              "path": "devilutionx/LICENSE/LICENSE.zlib.txt",
+              "sha256": "9bcb5892948627eccff9814599fff7472183352b359b3e702332226dcedac459"
+            },
+            {
+              "path": "devilutionx/LICENSE/LICENSE.CC-BY.txt",
+              "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+            },
+            {
+              "path": "devilutionx/devilutionx.exe",
+              "sha256": "7664b854454e1826d3a10c87d9a662a560c1ce15f04dfc9e34146076ff7f12b3"
+            },
+            {
+              "path": "devilutionx/SDL2.dll",
+              "sha256": "ed9bb11fb27ba61c04d0165f299e053626665e9ab2b51afb74ae2c1dcff7ddef"
+            },
+            {
+              "path": "devilutionx/devilutionx.mpq",
+              "sha256": "bed79d378d08b30fd1d3b4a48f609cad887d3a00f6546ae24ba1a71fe4332052"
+            },
+            {
+              "path": "devilutionx/README.txt",
+              "sha256": "5066e2beccf0a4973cabecc2381e719904c736e05d205427ab1714fe2f43353d"
+            },
+            {
+              "path": "devilutionx/libsodium-23.dll",
+              "sha256": "a4d77b79ce41410266aa436df8e8330989a2b793bd2a25334ac0671eafc91707"
+            },
+            {
+              "path": "devilutionx/LICENSE.md",
+              "sha256": "049382c17367e384c622369abbeda0cab1d65658c28611717e18afead341e586"
+            },
+            {
+              "path": "devilutionx/NOTICE-D2MOVEMENT.md",
+              "sha256": "acd8de05cbda89fa88b2fdd7c3244b7a50bea53169b0477ae2226cee09f16122"
+            },
+            {
+              "path": "devilutionx/README-D2MOVEMENT.txt",
+              "sha256": "70a00e4243534968f50467bd4bd046211814f854ed0224c2569ce85d36d5c634"
+            }
+          ],
+          "url": "https://github.com/ITSTDMCC/DevilutionX-D2-Movement/releases/download/v0.2.0/DevilutionX-D2-Movement-v0.2.0-windows-x64.zip",
+          "sha256": "c28b1840c8a472a33739666c075cee96d7aa3ff6215771199be5a2067e2fddee",
+          "size": 9268693
+        }
+      ]
+    }
+  ],
+  "launch": [
+    {
+      "game": "diablo",
+      "args": [],
+      "exe": "devilutionx.exe"
+    }
+  ],
+  "files": [
+    {
+      "name": "DevilutionX-D2-Movement-v0.2.0-windows-x64.zip",
+      "url": "https://github.com/ITSTDMCC/DevilutionX-D2-Movement/releases/download/v0.2.0/DevilutionX-D2-Movement-v0.2.0-windows-x64.zip",
+      "sha256": "c28b1840c8a472a33739666c075cee96d7aa3ff6215771199be5a2067e2fddee",
+      "size": 9268693
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/ITSTDMCC/DevilutionX-D2-Movement",
+    "license": "Sustainable Use License 1.0",
+    "upstream_license": "Sustainable Use License 1.0 (non-commercial, free distribution only)",
+    "fetch": "upstream",
+    "tag": "v0.2.0",
+    "commit": "c8a67aead1abe43bd6dab241314d482c02b1a069",
+    "hosted": "https://github.com/SIGFAI/devilutionx-d2",
+    "based_on": "https://github.com/diasurgical/devilutionX",
+    "prerelease": true
+  },
+  "media": {},
+  "built_by": {
+    "author": "ITSTDMCC",
+    "authors": [
+      "ITSTDMCC",
+      "DevilutionX contributors"
+    ],
+    "packaged_by": "SIGF"
+  },
+  "idea_by": "ITSTDMCC",
+  "built_at": "2026-10-05T00:00:00.000Z",
+  "status": "beta",
+  "issues": false,
+  "notes": [
+    "You need your own Diablo with DIABDAT.MPQ (GOG's Diablo, or the original CD copied to a folder): pick that folder as the Diablo game folder. Nothing from Diablo is downloaded; DevilutionX reads your DIABDAT.MPQ in place (and Hellfire's MPQs, when present). Diablo II is not needed.",
+    "DevilutionX is installed into your Diablo folder, downloaded from the author's own release; Restore removes it and puts back any file it replaced. Start the game with devilutionx.exe in that folder, not Diablo.exe.",
+    "Click to walk straight to that point; R toggles running in town (Left Ctrl for a moment). Settings > Gameplay > \"Diablo 2 Movement\" off gives you Diablo 1's tile walking back. Multiplayer games only see other players running this mod.",
+    "Pre-release, a personal learning project: expect rough edges. The upstream repo has no issue tracker; DevilutionX bugs that also happen without the mod belong to DevilutionX.",
+    "License: DevilutionX's Sustainable Use License 1.0 (free, non-commercial use and sharing only). SIGF never rehosts it: the app downloads the author's file."
+  ]
+}

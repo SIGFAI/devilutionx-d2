@@ -4,10 +4,10 @@
   "name": "Diablo with Diablo 2 Movement",
   "tagline": "Diablo 1 through DevilutionX with Diablo 2's movement: walk straight to where you click, slide past corners and run in town.",
   "how_to_play": [
-    "Play Diablo with Diablo 2's movement: your hero walks straight to the exact point you click and slides past corners.",
-    "Click (or push the stick) to move.",
-    "In town press R to toggle running; hold Left Ctrl to do the opposite for a moment. In the dungeon everyone walks.",
-    "Turn off Settings > Gameplay > Diablo 2 Movement to get Diablo 1's tile walking back."
+    "Play Diablo 1 (through DevilutionX) with Diablo 2's movement: your hero walks straight to the exact point you click, slides past corners, runs in town.",
+    "Press Play: the app starts devilutionx.exe from your Diablo folder (not Diablo.exe); it reads your MPQs in place (Hellfire's too when present).",
+    "Click (or push the stick) to move. In town R toggles running and holding Left Ctrl does the opposite for a moment; in the dungeon everyone walks.",
+    "Settings > Gameplay > \"Diablo 2 Movement\" off brings back Diablo 1's tile walking."
   ],
   "kind": "mashup",
   "games": [
@@ -136,9 +136,7 @@
   "status": "beta",
   "issues": false,
   "notes": [
-    "How it works: you play Diablo 1 (through DevilutionX) with Diablo 2's movement: your hero walks straight to the exact point you click, slides past corners, and runs in town. Everything else plays like DevilutionX 1.5.3.",
-    "Pick the folder holding your DIABDAT.MPQ as the Diablo game folder. Press Play: the app starts devilutionx.exe from that folder (not Diablo.exe). DevilutionX reads your MPQs in place (Hellfire's too when present).",
-    "Click (or push the stick) to move. In town R toggles running and holding Left Ctrl does the opposite for a moment; in the dungeon everyone walks. Settings > Gameplay > \"Diablo 2 Movement\" off brings back Diablo 1's tile walking.",
+    "Pick the folder holding your DIABDAT.MPQ as the Diablo game folder. Everything else plays like DevilutionX 1.5.3.",
     "You need your own Diablo with DIABDAT.MPQ (GOG's Diablo, or the original CD copied to a folder). Hellfire also needs hellfire.mpq, hfmonk.mpq, hfmusic.mpq and hfvoice.mpq. Diablo II is not needed.",
     "Multiplayer only sees other players running this mod. Restore removes DevilutionX and puts back any file it replaced; your saves in %APPDATA%\\diasurgical\\devilution stay. Free, non-commercial license (Sustainable Use License 1.0).",
     "Pre-release, a personal learning project: expect rough edges. The upstream repo has no issue tracker; bugs that also happen without the mod belong to DevilutionX."

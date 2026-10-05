@@ -3,6 +3,12 @@
   "version": "0.2.0",
   "name": "Diablo with Diablo 2 Movement",
   "tagline": "Diablo 1 through DevilutionX with Diablo 2's movement: walk straight to where you click, slide past corners and run in town.",
+  "how_to_play": [
+    "Play Diablo with Diablo 2's movement: your hero walks straight to the exact point you click and slides past corners.",
+    "Click (or push the stick) to move.",
+    "In town press R to toggle running; hold Left Ctrl to do the opposite for a moment. In the dungeon everyone walks.",
+    "Turn off Settings > Gameplay > Diablo 2 Movement to get Diablo 1's tile walking back."
+  ],
   "kind": "mashup",
   "games": [
     {

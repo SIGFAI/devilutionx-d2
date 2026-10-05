@@ -130,10 +130,11 @@
   "status": "beta",
   "issues": false,
   "notes": [
-    "You need your own Diablo with DIABDAT.MPQ (GOG's Diablo, or the original CD copied to a folder): pick that folder as the Diablo game folder. Nothing from Diablo is downloaded; DevilutionX reads your DIABDAT.MPQ in place (and Hellfire's MPQs, when present). Diablo II is not needed.",
-    "DevilutionX is installed into your Diablo folder, downloaded from the author's own release; Restore removes it and puts back any file it replaced. Start the game with devilutionx.exe in that folder, not Diablo.exe.",
-    "Click to walk straight to that point; R toggles running in town (Left Ctrl for a moment). Settings > Gameplay > \"Diablo 2 Movement\" off gives you Diablo 1's tile walking back. Multiplayer games only see other players running this mod.",
-    "Pre-release, a personal learning project: expect rough edges. The upstream repo has no issue tracker; DevilutionX bugs that also happen without the mod belong to DevilutionX.",
-    "License: DevilutionX's Sustainable Use License 1.0 (free, non-commercial use and sharing only). SIGF never rehosts it: the app downloads the author's file."
+    "How it works: you play Diablo 1 (through DevilutionX) with Diablo 2's movement: your hero walks straight to the exact point you click, slides past corners, and runs in town. Everything else plays like DevilutionX 1.5.3.",
+    "Pick the folder holding your DIABDAT.MPQ as the Diablo game folder. Press Play: the app starts devilutionx.exe from that folder (not Diablo.exe). DevilutionX reads your MPQs in place (Hellfire's too when present).",
+    "Click (or push the stick) to move. In town R toggles running and holding Left Ctrl does the opposite for a moment; in the dungeon everyone walks. Settings > Gameplay > \"Diablo 2 Movement\" off brings back Diablo 1's tile walking.",
+    "You need your own Diablo with DIABDAT.MPQ (GOG's Diablo, or the original CD copied to a folder). Hellfire also needs hellfire.mpq, hfmonk.mpq, hfmusic.mpq and hfvoice.mpq. Diablo II is not needed.",
+    "Multiplayer only sees other players running this mod. Restore removes DevilutionX and puts back any file it replaced; your saves in %APPDATA%\\diasurgical\\devilution stay. Free, non-commercial license (Sustainable Use License 1.0).",
+    "Pre-release, a personal learning project: expect rough edges. The upstream repo has no issue tracker; bugs that also happen without the mod belong to DevilutionX."
   ]
 }
